@@ -1,0 +1,318 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4B0082;
+    padding: 1px;
+    
+}
+
+.header-container {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1200px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 150px;
+    margin-right:50px
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.btn-daftar {
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+.btn-daftar:hover {
+    background-color: rgb(89, 17, 95);
+    color: #4B0082;
+}
+
+/* Hero Section */
+.hero {
+    background-image:url('https://bis-sby.telkomuniversity.ac.id/wp-content/uploads/2024/04/Frame-12.png');
+    color: rgba(252, 251, 251, 0.897);
+    padding: 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 14px;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.main-article {
+    width: 70%;
+}
+
+.article-img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.kategori {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    list-style: none;
+}
+
+.kategori a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.Artikel {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    list-style: none;
+}
+
+.Artikel p {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.artikel p {
+    list-style: none;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.search-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tag-list a.small {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.tag-list a.small {
+    font-size: 12px;
+
+}
+
+.tag-list a.medium {
+    font-size: 16px;
+}
+
+.tag-list a.large {
+    font-size: 20px;
+
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.tags {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #cccccc3b;
+    border-radius: 5px;
+    background-color: #f7f7f74a;
+}
+
+
+.tags span {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    
+}
+
+.social-icons {
+    text-align: center;
+   
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 2em;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.article {
+    width: 30%;
+    text-align: center;
+}
+
+.article img {
+    width: 90%;
+    border-radius: 5px;
+    
+}
+
+/* Footer Section */
+footer {
+    background-color: #121212;
+    color: #c0c0c0;
+    padding: 4em 6em;
+    height: 78%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-logo,
+.footer-address,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    min-width: 250px; /* Minimal lebar setiap kolom */
+}
+
+.footer-logo img {
+    max-width: 340px;
+    margin-bottom: 15px;
+}
+
+.footer-address h4,
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 16px;
+    padding: 12px 0;
+}
+
+.footer-logo p,
+.footer-address p,
+.footer-contact p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer-address,
+.footer-links,
+.footer-contact {
+    max-width: 250px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-contact a {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin-bottom: 8px;
+}
+
+.footer-contact a:hover,
+.icon-text i:hover {
+    color: #ffffff;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer-bottom p {
+    margin: 8px;
+    color: #c0c0c0;
+}
